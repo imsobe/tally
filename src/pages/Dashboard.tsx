@@ -11,7 +11,7 @@ export function Dashboard() {
     <div className="page">
       <header className="page-head">
         <div>
-          <h1 className="page-title">Good morning, Imran</h1>
+          <h1 className="page-title">DURABLE TEST</h1>
           <p className="page-subtitle">You have {today.length} habits to tend today.</p>
         </div>
         <Link to="/habits">
