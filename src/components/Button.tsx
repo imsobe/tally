@@ -1,7 +1,7 @@
 import type { ButtonHTMLAttributes } from 'react'
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'ghost'
+  variant?: 'primary' | 'secondary' | 'ghost' | 'dark'
 }
 
 /** Themed button. `variant` picks the visual weight; everything else is a normal <button>. */

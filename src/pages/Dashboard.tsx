@@ -15,7 +15,7 @@ export function Dashboard() {
           <p className="page-subtitle">You have {today.length} habits to tend today.</p>
         </div>
         <Link to="/habits">
-          <Button variant="secondary">View all habits</Button>
+          <Button variant="dark">View all habits</Button>
         </Link>
       </header>
 
