@@ -12,10 +12,9 @@ export function Dashboard() {
       <header className="page-head">
         <div>
           <h1 className="page-title">Good morning, Imran</h1>
-          <p className="page-subtitle">You have {today.length} habits to tend today.</p>
         </div>
         <Link to="/habits">
-          <Button variant="secondary">View all habits</Button>
+          <Button variant="secondary">View Dem Habbitus</Button>
         </Link>
       </header>
 
