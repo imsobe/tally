@@ -11,11 +11,11 @@ export function Dashboard() {
     <div className="page">
       <header className="page-head">
         <div>
-          <h1 className="page-title">Good morning, Imran</h1>
+          <h1 className="page-title">POOL HEALED</h1>
           <p className="page-subtitle">You have {today.length} habits to tend today.</p>
         </div>
         <Link to="/habits">
-          <Button variant="secondary">View all habits</Button>
+          <Button variant="secondary">View The Habittus</Button>
         </Link>
       </header>
 
