@@ -664,3 +664,71 @@ a {
   justify-content: flex-end;
   gap: 10px;
 }
+
+/* ---- Mobile ---- */
+@media (max-width: 720px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .nav {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 12px;
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .nav-brand {
+    padding: 0 8px 0 0;
+  }
+
+  .nav-title {
+    display: none;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .nav-link {
+    padding: 8px 10px;
+  }
+
+  .nav-link-icon {
+    display: none;
+  }
+
+  .nav-footer {
+    margin-top: 0;
+    padding: 0;
+    border-top: none;
+  }
+
+  .nav-user {
+    display: none;
+  }
+
+  .content {
+    padding: 20px 16px;
+  }
+
+  .page-head {
+    flex-wrap: wrap;
+  }
+
+  .stat-row {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .habit-progress {
+    width: 100px;
+  }
+}
